@@ -6,9 +6,10 @@ class HyperParam:
         self.opt = ParamGroup()
         self.opt.adam_beta = (0.9, 0.98)
         self.opt.adam_epsilon = 1e-9
-        self.opt.warmup_steps = 4000
+        self.opt.warm_up_steps = 4000
         self.opt.label_smoothing = 0.1
         self.opt.init_learning_rate = 1e-7
+        self.opt.batch_size = 2048
 
         self.infer = ParamGroup()
         self.infer.beam_size = 4

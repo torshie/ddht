@@ -7,6 +7,8 @@ name = "pypi"
 torch = "*"
 numpy = "*"
 torchviz = "*"
+sentencepiece = "*"
+tqdm = "*"
 
 [dev-packages]
 
